@@ -10,5 +10,5 @@ let menuList = document.getElementById("coffee-menu")
 
 // Loop through the inventory and display each item in the menu list
 for (let i=0; i<inventory.length; i++) {
-  menuList.innerHTML += "<li>" + inventory[i] + " - $" + inventoryPrices[i].toFixed(2) + "</li>"
+  menuList.innerHTML += `<li>${inventory[i]} - \$${inventoryPrices[i].toFixed(2)}</li>`
 }
